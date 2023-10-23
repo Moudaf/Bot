@@ -14,4 +14,4 @@ WORKDIR /app
 # RUN pip install rasa
 
 # Exécutez votre chatbot Rasa
-CMD ["rasa", "run", "-m", "models", "--endpoints", "endpoints.yml"]
+CMD ["rasa", "run", "-m", "models", "--endpoints", "index.html"]
